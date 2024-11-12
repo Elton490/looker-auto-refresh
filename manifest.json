@@ -1,0 +1,33 @@
+{
+  "name": "Auto Refresh Component",
+  "organization": "Your Organization",
+  "description": "Componente para atualização automática de dados",
+  "logoUrl": "",
+  "organizationUrl": "",
+  "supportUrl": "",
+  "privacyPolicyUrl": "",
+  "termsOfServiceUrl": "",
+  "packageUrl": "https://[SEU-USERNAME].github.io/looker-auto-refresh/autorefresh.js",
+  "devMode": true,
+  "components": [{
+    "id": "autoRefresh",
+    "name": "Auto Refresh",
+    "iconUrl": "",
+    "description": "Atualiza automaticamente os dados do dashboard",
+    "resource": {
+      "js": "autorefresh.js",
+      "config": {
+        "refresh_interval": {
+          "type": "NUMBER",
+          "displayName": "Intervalo de Atualização (segundos)",
+          "defaultValue": 300
+        },
+        "enable_refresh": {
+          "type": "BOOLEAN",
+          "displayName": "Ativar Atualização Automática",
+          "defaultValue": true
+        }
+      }
+    }
+  }]
+}

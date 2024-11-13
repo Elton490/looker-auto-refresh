@@ -1,1 +1,1 @@
-# looker-auto-refreshD
+# looker-auto-refresh

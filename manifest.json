@@ -2,18 +2,12 @@
   "name": "Auto Refresh Component",
   "organization": "Your Organization",
   "description": "Componente para atualização automática de dados",
-  "logoUrl": "",
-  "organizationUrl": "",
-  "supportUrl": "",
-  "privacyPolicyUrl": "",
-  "termsOfServiceUrl": "",
   "packageUrl": "https://Elton490.github.io/looker-auto-refresh/autorefresh.js",
   "devMode": true,
   "components": [
     {
       "id": "autoRefresh",
       "name": "Auto Refresh",
-      "iconUrl": "",
       "description": "Atualiza automaticamente os dados do dashboard",
       "resource": {
         "js": "autorefresh.js",

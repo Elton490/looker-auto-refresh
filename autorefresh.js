@@ -1,4 +1,3 @@
-// Auto Refresh Component for Looker Studio
 const refreshComponent = {
   config: {
     refresh_interval: {
@@ -16,7 +15,7 @@ const refreshComponent = {
   initialize: function(context) {
     this.interval = null;
     this.context = context;
-    
+
     if (this.config.enable_refresh) {
       this.startRefresh();
     }
@@ -26,9 +25,9 @@ const refreshComponent = {
     if (this.interval) {
       clearInterval(this.interval);
     }
-    
+
     const refreshTime = this.config.refresh_interval * 1000;
-    
+
     this.interval = setInterval(() => {
       this.refreshData();
     }, refreshTime);
